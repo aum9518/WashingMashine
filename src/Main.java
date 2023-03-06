@@ -44,6 +44,25 @@ public class Main {
             }else {
                 throw new Exception("There is no such a temperature");
             }
+            System.out.println("Please choose mode: \n1.Very dirty\n2.Fast 30\n3.Spin\n4.Rinsing Spin\n5.Cotton\n6.Synthetic\nHand washing of wool");
+            int mode = new Scanner(System.in).nextInt();
+            if (mode==1){
+                washingMashine.veryDirty();
+            } else if (mode==2) {
+                washingMashine.fast30();
+            } else if (mode==3) {
+                washingMashine.spin();
+            } else if (mode==4) {
+                washingMashine.rinsingSpin();
+            } else if (mode==5) {
+                washingMashine.cotton();
+            } else if (mode==6) {
+                washingMashine.synthetic();
+            } else if (mode==7) {
+                washingMashine.handWashingOfWool();
+            }else {
+                throw new Exception("No such a mode");
+            }
             double weight = 0;
             for (Clothe a:clothes) {
                weight = weight+a.getWight();
@@ -53,7 +72,7 @@ public class Main {
             }else {
                 throw new Exception("Over loaded please take some cloth.");
             }
-            System.out.println(weight);
+            System.out.println("Total weight of clothes: "+weight);
             System.out.println("Status:"+washingMashine.getStatus()+"\nSpin: "+washingMashine.getSpin()+"\nTemperarure: "+washingMashine.getTemperature());
             if (washingMashine.getTemperature()==60){
                 washingMashine.setStatus("Stop");

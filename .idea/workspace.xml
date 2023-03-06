@@ -4,18 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff63a541-02fe-4422-8981-6286a6322c94" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WashingMashine.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Clothe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EnumOption.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Rejim.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WashingMashine.java" afterDir="false" />
+    <list default="true" id="ff63a541-02fe-4422-8981-6286a6322c94" name="Changes" comment="add Washing Process">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +63,18 @@
       <option name="presentableId" value="Default" />
       <updated>1677913421807</updated>
     </task>
+    <task id="LOCAL-00001" summary="add Washing Process">
+      <created>1678024657690</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678024657690</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add Washing Process" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Washing Process" />
   </component>
 </project>
